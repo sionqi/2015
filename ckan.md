@@ -196,8 +196,8 @@ Change the ownership for two spatial tables:
 >`sudo -u postgres psql -d ckan_default -c "SELECT postgis_full_version()"`
 
 You should get something like:
->`POSTGIS="2.1.2 r12389" GEOS="3.4.2-CAPI-1.8.2 r3921" PROJ="Rel. 4.8.0, 6 March 2012" LIBXML="2.9.1" LIBJSON="UNKNOWN"
-(1 row)`
+>` POSTGIS="1.5.3" GEOS="3.2.2-CAPI-1.6.2" PROJ="Rel. 4.7.1, 23 September 2009" LIBXML="2.7.8" USE_STATS`<br>
+>`(1 row)`
 
 ###5. Install some other packages needed by the extension dependencies:
 
