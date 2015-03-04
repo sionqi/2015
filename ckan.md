@@ -174,12 +174,12 @@ Setup ckanext-spatial
 ###1. Install PostGIS:
 
 >`sudo apt-get install postgresql-9.3-postgis-2.1  #(postgresql 9.3)`<br>
->`sudo apt-get install postgresql-9.1-postgis-1.5  #(postgresql 9.1)`<br>
+>`sudo apt-get install postgresql-9.1-postgis  #(postgresql 9.1)`<br>
 
 ###2. Run the following commands. The first one will create the necessary tables and functions in the database, and the second will populate the spatial reference table:
 
->`sudo -u postgres psql -d ckan_default -f /usr/share/postgresql/9.3/contrib/postgis-2.1/postgis.sql`<br>
->`sudo -u postgres psql -d ckan_default -f /usr/share/postgresql/9.3/contrib/postgis-2.1/spatial_ref_sys.sql`<br>
+>`sudo -u postgres psql -d ckan_default -f /usr/share/postgresql/9.1/contrib/postgis-1.5/postgis.sql`<br>
+>`sudo -u postgres psql -d ckan_default -f /usr/share/postgresql/9.1/contrib/postgis-1.5/spatial_ref_sys.sql`<br>
 
 ###3. Change the owner to spatial tables to the CKAN user to avoid errors later on:
 Open the Postgres console:
