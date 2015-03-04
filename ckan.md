@@ -83,6 +83,7 @@ a.Edit the Jetty configuration file (/etc/default/jetty) and change the followin
 >`NO_START=0            # (line 4)`<br>
 >`JETTY_HOST=127.0.0.1  # (line 15)`<br>
 >`JETTY_PORT=8983       # (line 18)`<br>
+>`JJAVA_HOME=/usr/lib/jvm/java-6-openjdk-amd64/`
 
 b.Edit the Jetty configuration file(/etc/jetty/start.config) and add a jar:
 
