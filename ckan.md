@@ -165,7 +165,9 @@ Create the database (owned by ckan_default), which we’ll call datastore_defaul
 
 ###3. Test the set-up
 
->`curl -X GET "http://127.0.0.1:5000/api/3/action/datastore_sea?rchresource_id=_table_metadata"`
+>`. /usr/lib/ckan/default/bin/activate`<br>
+>`paster serve /etc/ckan/default/development.ini`<br>
+>`curl -X GET "http://127.0.0.1:5000/api/3/action/datastore_search?rchresource_id=_table_metadata"`
 
 Setup ckanext-spatial
 =====================
